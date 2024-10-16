@@ -2,7 +2,7 @@
 
 ---
 
-![loGo](logo/logo.webp)
+![loGo](logo.webp)
 
 ---
 
