@@ -38,19 +38,19 @@ Install the dependencies via pip:
 
 ```bash
 pip install rich pyfiglet
-
+```
 How to Use
 
 1. Clone or Download the Project: You can clone this repository or download the Python script to your local machine.
-
+```bash
 git clone https://github.com/rkstudio585/variable-checker.git
 cd variable-checker
-
+```
 
 2. Run the Script: To run the tool, simply execute the Python script in your terminal:
-
+```bash
 python variable_checker.py
-
+```
 
 3. Follow the Prompts: The tool will ask if you want to check multiple variable names at once. If you choose yes, you'll be asked to input the variable names, separated by commas.
 
@@ -96,24 +96,23 @@ Whether the variable name is a Python keyword.
 
 Example of Valid Variable Names
 
-my_var
+- my_var
 
-_myVariable
+- _myVariable
 
-user123
+- user123
 
-age
+- age
 
-_counter
-
+- _counter
 
 Example of Invalid Variable Names
 
-123abc → Invalid (cannot start with a number).
+- 123abc → Invalid (cannot start with a number).
 
-if → Invalid (Python keyword).
+- if → Invalid (Python keyword).
 
-my-var → Invalid (hyphens are not allowed).
+- my-var → Invalid (hyphens are not allowed).
 
 
 For invalid variables, the tool will suggest how to correct them, like _123abc instead of 123abc.
